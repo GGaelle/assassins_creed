@@ -4,6 +4,24 @@ body {
     margin: 0;
 }
 
+/* header */
+header {
+    height: 160px;
+    background-color: #000;
+        text-align: center;
+}
+header p {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Noto Serif', serif;
+    color: #fff;
+}
+.logo {
+    width: 15%;
+    height: auto;
+    padding-top: 15px;
+}
+
 /* Section 1 */
 .home {
     background-image: url(../images/fondbase.jpg);
@@ -90,7 +108,6 @@ footer {
     height: 50px;
     background-color: #fff;
     text-align: center;
-    font-family: 'Macondo', cursive;
-    font-weight: bold;
+    font-family: 'Noto Serif', serif;
     padding-top: 5px;
 }
