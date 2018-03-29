@@ -22,9 +22,10 @@ article {
 /* Section 2 */
 .heros {
     background-color: #000;
-    height: 800px;
+    height: 900px;
     background-image: url(../images/bg-assassins.jpg);
-    padding-bottom: 150px;
+    padding-bottom: 50px;
+    
 }
 
 #fumeeb {
@@ -59,7 +60,7 @@ article {
     transform: rotate(-30deg)
 }
 #parallax-img-6 {
-    width: 60px;
+    width: 30px;
     height: auto;
     transform: rotate(10deg)
 }
@@ -73,7 +74,11 @@ article {
     height: auto;
     transform: rotate(-20deg)
 }
-
+#parallax-img-9 {
+    width: 20px;
+    height: auto;
+    transform: rotate(20deg)
+}
 
 
 
