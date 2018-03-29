@@ -3,6 +3,8 @@ body {
     padding: 0;
     margin: 0;
 }
+
+/* Section 1 */
 .home {
     background-image: url(../images/fondbase.jpg);
     height: 2000px;
@@ -13,10 +15,77 @@ article {
     position: relative;
     height: 100%;
 }
-.heros {
-    background-color: #000;
-    height: 1000px;
-}
 #fumee {
     width: 105%;
+}
+
+/* Section 2 */
+.heros {
+    background-color: #000;
+    height: 800px;
+    background-image: url(../images/bg-assassins.jpg);
+    padding-bottom: 150px;
+}
+
+#fumeeb {
+    width: 105%;
+    transform: rotate(180deg)
+}
+
+#parallax-img-1 {
+    width: 50px;
+    height: auto;
+    transform: rotate(14deg)
+}
+#parallax-img-2 {
+    width: 150px;
+    height: auto;
+    transform: rotate(-14deg)
+}
+#parallax-img-3 {
+    width: 70px;
+    height: auto;
+    transform: rotate(-10deg)
+}
+
+#parallax-img-4 {
+    width: 40px;
+    height: auto;
+    transform: rotate(30deg)
+}
+#parallax-img-5 {
+    width: 60px;
+    height: auto;
+    transform: rotate(-30deg)
+}
+#parallax-img-6 {
+    width: 60px;
+    height: auto;
+    transform: rotate(10deg)
+}
+#parallax-img-7 {
+    width: 80px;
+    height: auto;
+    transform: rotate(-20deg)
+}
+#parallax-img-8 {
+    width: 80px;
+    height: auto;
+    transform: rotate(-20deg)
+}
+
+
+
+
+
+
+/* Footer */
+
+footer {
+    height: 50px;
+    background-color: #fff;
+    text-align: center;
+    font-family: 'Macondo', cursive;
+    font-weight: bold;
+    padding-top: 5px;
 }
