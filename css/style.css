@@ -6,28 +6,36 @@ body {
 
 /* header */
 header {
-    height: 160px;
+    height: 165px;
     background-color: #000;
     text-align: center;
+    border-top: #950000 solid 6px;
+    border-bottom: #950000 solid 6px;
 }
 header p {
     text-align: center;
     font-size: 15px;
     font-family: 'Noto Serif', serif;
     color: #fff;
+    position: relative;
 }
 .logo {
-    width: 15%;
+    width: 50%;
     height: auto;
-    padding-top: 15px;
-    text-align: center;
+    padding-top: 4px;
+
 }
 .logo2 {
-    width: 6%;
+    width: 60%;
     height: auto;
-    padding-top: 20px;
-    float: left;
-    padding-left: 30px;
+    padding-top: 28px;
+
+}
+.logo3 {
+    width: 60%;
+    height: auto;
+    padding-top: 28px;
+
 }
 
 /* Section 1 */
@@ -49,9 +57,7 @@ article {
 .heros {
     background-color: #000;
     height: 900px;
-    background-image: url(../images/bg-assassins.jpg);
-    padding-bottom: 50px;
-    
+    background-image: url(../images/Assassins_Creed4.jpg);
 }
 
 #fumeeb {
@@ -105,7 +111,14 @@ article {
     height: auto;
     transform: rotate(20deg)
 }
-
+#parallax-img-10 {
+    width: 750px;
+    height: auto;
+}
+#parallax-img-11 {
+    width: 450px;
+    height: auto;
+}
 
 
 
