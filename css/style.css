@@ -13,3 +13,10 @@ article {
     position: relative;
     height: 100%;
 }
+.heros {
+    background-color: #000;
+    height: 1000px;
+}
+#fumee {
+    width: 105%;
+}
