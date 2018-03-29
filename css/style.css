@@ -6,8 +6,8 @@ body {
 .home {
     background-image: url(../images/fondbase.jpg);
     height: 2000px;
-    -moz-background-size: cover;
-    background-size: cover;
+
+    background-size: 101%;
 }
 article {
     position: relative;
