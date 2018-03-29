@@ -6,7 +6,7 @@ body {
 .home {
     background-image: url(../images/fondbase.jpg);
     height: 2000px;
-
+    -moz-background-size: 101%;
     background-size: 101%;
 }
 article {
