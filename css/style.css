@@ -125,10 +125,11 @@ article {
 
 /* Footer */
 
-footer {
-    height: 50px;
-    background-color: #fff;
-    text-align: center;
-    font-family: 'Noto Serif', serif;
-    padding-top: 5px;
+.linear-gradient {
+  background: linear-gradient(#000, #950000);
+  height: 60px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Noto Serif', serif;
+  padding-top: 20px;
 }
