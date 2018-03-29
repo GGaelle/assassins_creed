@@ -1,0 +1,15 @@
+body { 
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+.home {
+    background-image: url(../images/fondbase.jpg);
+    height: 2000px;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+article {
+    position: relative;
+    height: 100%;
+}
