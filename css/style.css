@@ -143,9 +143,22 @@ article h1 {
 
 .linear-gradient {
   background: linear-gradient(#000, #950000);
-  height: 60px;
   text-align: center;
   color: #fff;
   font-family: 'Noto Serif', serif;
-  padding-top: 25px;
+  padding-top: 5px;
+}
+.scroll-top {
+    text-align: center;
+}
+.scroll-top a i:hover {
+    color: #950000;
+}
+
+.scroll-top a i {
+    color: #fff;
+    font-size: 25px;
+}
+.linear-gradient {
+    padding-top:20px;
 }

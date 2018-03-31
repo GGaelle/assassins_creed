@@ -11,11 +11,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     
+    <!-- ionicons -->
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Macondo" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,400i,500,500i,600,600i" rel="stylesheet">
-     
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />     
      
     <script type="text/javascript"> 
         $(document).on("ready", function() {
@@ -53,7 +58,7 @@
   </header>
   
    <!-- Home -->
-   <section class="home">
+   <section class="home" id="#HOME">
        <article class="parallax-img-container">
             <img src="images/smoke1.png" class="parallax-move" data-ps-z-index="1" data-ps-speed="0.5"  data-ps-vertical-position="900" data-ps-horizontal-position="300" />
             <img src="images/smoke2.png" class="parallax-move" data-ps-z-index="2" data-ps-speed="0.4"  data-ps-vertical-position="650" data-ps-horizontal-position="-50" />
@@ -77,26 +82,43 @@
            <img id="parallax-img-1" src="images/triangle.png" class="parallax-move" data-ps-z-index="1" data-ps-speed="0.25"  data-ps-vertical-position="50" data-ps-horizontal-position="15">
            <img id="parallax-img-2" src="images/triangle.png" class="parallax-move" data-ps-z-index="3" data-ps-speed="0.5"  data-ps-vertical-position="300" data-ps-horizontal-position="1500">
            <img id="parallax-img-3" src="images/square.png" class="parallax-move" data-ps-z-index="1" data-ps-speed="0.6"  data-ps-vertical-position="500" data-ps-horizontal-position="900">
-           <img id="parallax-img-4" src="images/square.png" class="parallax-move" data-ps-z-index="2" data-ps-speed="0.5"  data-ps-vertical-position="200" data-ps-horizontal-position="700">
+           <img id="parallax-img-4" src="images/square.png" class="parallax-move" data-ps-z-index="2" data-ps-speed="0.5"  data-ps-vertical-position="300" data-ps-horizontal-position="700">
            <img id="parallax-img-5" src="images/square.png" class="parallax-move" data-ps-z-index="1" data-ps-speed="0.5"  data-ps-vertical-position="100" data-ps-horizontal-position="1650">
            <img id="parallax-img-6" src="images/ex.png" class="parallax-move" data-ps-z-index="3" data-ps-speed="0.2"  data-ps-vertical-position="-10" data-ps-horizontal-position="1400">
            <img id="parallax-img-7" src="images/ex.png" class="parallax-move" data-ps-z-index="2" data-ps-speed="0.2"  data-ps-vertical-position="500" data-ps-horizontal-position="150">
            <img id="parallax-img-8" src="images/circle.png" class="parallax-move" data-ps-z-index="2" data-ps-speed="0.2"  data-ps-vertical-position="100" data-ps-horizontal-position="800">
-           <img id="parallax-img-9" src="images/circle.png" class="parallax-move" data-ps-z-index="2" data-ps-speed="0.2"  data-ps-vertical-position="500" data-ps-horizontal-position="100">
+           <img id="parallax-img-9" src="images/circle.png" class="parallax-move" data-ps-z-index="2" data-ps-speed="0.2"  data-ps-vertical-position="450" data-ps-horizontal-position="300">
            <img id="parallax-img-9" src="images/circle.png" class="parallax-move" data-ps-z-index="2" data-ps-speed="0.7"  data-ps-vertical-position="0" data-ps-horizontal-position="1100">
            <img id="parallax-img-10" src="images/personnage.png" class="parallax-move" data-ps-z-index="4" data-ps-speed="0.3"  data-ps-vertical-position="-280" data-ps-horizontal-position="70">
-            <img id="parallax-img-11" src="images/heros.png" class="parallax-move" data-ps-z-index="4" data-ps-speed="0.3"  data-ps-vertical-position="-170" data-ps-horizontal-position="1500">
+            <img id="parallax-img-11" src="images/heros.png" class="parallax-move" data-ps-z-index="4" data-ps-speed="0.3"  data-ps-vertical-position="-190" data-ps-horizontal-position="1500">
            
        </article>
    </section>
      
    <!-- Footer -->
-   <footer>
-      <div class="linear-gradient">
-          <p><em>Réalisé en étudiant "http://cyntss.github.io/Parallax-img-scroll/"</em></p>
-      </div>
-       
+   <footer class="linear-gradient">
+     <div class="container">
+         <div class="row">
+            
+              <div class="col-md-2">
+                    <div class="scroll-top">
+                        <a href="#" id="scroll-to-top"><i class="ion-android-arrow-dropup-circle"></i></a>
+                    </div>
+              </div>
+              
+              <div class="col-md-8">
+                  <p><em>Conçu en étudiant "http://cyntss.github.io/Parallax-img-scroll/"<br>Réalisation : Gaëlle Gibier - Formation Arinfo 03/2018</em></p>    
+              </div>
+              
+              <div class="col-md-2">
+                    <div class="scroll-top">
+                        <a href="#" id="scroll-to-top"><i class="ion-android-arrow-dropup-circle"></i></a>
+                    </div>
+              </div>
+         </div>  
+      </div>         
    </footer>
+   
     
 </body>
 </html>
