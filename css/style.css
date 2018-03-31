@@ -6,7 +6,6 @@ body {
 
 /* header */
 header {
-    height: 165px;
     background-color: #000;
     text-align: center;
     border-top: #950000 solid 6px;
@@ -42,6 +41,7 @@ header p {
 .home {
     background-image: url(../images/fondbase.jpg);
     height: 2000px;
+    background-repeat: no-repeat;
     -moz-background-size: 101%;
     background-size: 101%;
 }
@@ -154,8 +154,17 @@ article h1 {
 .scroll-top a i:hover {
     color: #950000;
 }
-
 .scroll-top a i {
+    color: #fff;
+    font-size: 25px;
+}
+.github {
+    text-align: center;
+}
+.github a i:hover {
+    color: #950000;
+}
+.github a i {
     color: #fff;
     font-size: 25px;
 }
