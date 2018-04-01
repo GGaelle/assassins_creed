@@ -41,9 +41,10 @@ header p {
 .home {
     background-image: url(../images/fondbase.jpg);
     height: 2000px;
-    background-repeat: no-repeat;
-    -moz-background-size: 101%;
-    background-size: 101%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 article {
     position: relative;
